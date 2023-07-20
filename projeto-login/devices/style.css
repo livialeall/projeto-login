@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:1200px) { 
+    
+    html {
+        background-image: linear-gradient(to bottom, #5E2C81,#4C929A); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    }
+       
+    .img-background {
+        float: left;
+        padding: 20%;
+        height: 100%;
+        display:block;
+        
+        
+        
+        
+    }
+
+    .login-celular{
+
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.408);
+        margin: auto;
+        margin-top: 170px;
+        width: 800px;
+        height: 10px;
+    
+    }
+
+
+    .login-celular-conteudo {
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+       
+        
+    
+    
+    }
+
+
+
+}
