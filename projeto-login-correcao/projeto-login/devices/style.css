@@ -1,7 +1,6 @@
 @charset "UTF-8";
-/* Para Tablet */
-@media screen and (min-width:768px) and (max-width:992px) { 
-    
+
+@media screen and (min-width:768px) and (max-width:992px) {
     html {
         background-image: linear-gradient(to bottom, #5E2C81,#4C929A); 
         background-repeat: no-repeat;
@@ -9,29 +8,30 @@
     
     }
 
-    .login-celular {
-        width: 70vw;
+
+
+    .login {
+        width: 80vw;
 
     }
 
-    .img-background {
+    .imagem {
         float: left;
         height: 100%;
         width: 40%;
     }
 
-    .login-celular-conteudo {
+    .formulario {
         float: right;
         width: 60%;
-      
+
     }
 
 
-   
 }
-
 
 @media screen and (min-width:992px) {
+
     html {
         background-image: linear-gradient(to bottom, #5E2C81,#4C929A); 
         background-repeat: no-repeat;
@@ -39,25 +39,21 @@
     
     }
 
-    .login-celular {
-        width: 70vw;
+    .login {
+        width: 90vw;
 
     }
 
-    .img-background {
-        float: right;
-        height: 100%;
-        width: 40%;
-    }
-
-    .login-celular-conteudo {
+    .imagem {
         float: left;
-        width: 60%;
-      
+        height: 100%;
+        width: 50%;
     }
 
+    .formulario {
+        float: right;
+        width: 50%;
 
-
+    }
     
 }
-

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="mobile-first/style.css">
+    <link rel="stylesheet" href="devices/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div class="imagem">
+                
+
+            </div>
+            <div class="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novemente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <form action="login.php" method="post">
+                    <div>
+                        <span class="material-icons">person</span>
+                            
+                        <input type="email" name="email" id="iemail" class="input-dados" required placeholder="Seu Email" required maxlength="30">
+                        <label for="iemail">Email</label>
+                    </div>
+
+                    <div>
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senhaa" id="isenha" class="input-dados" required placeholder="Sua Senha" minlength="8" maxlength="20">
+                        <label for="isenha"> Senha</label>
+                    </div>
+
+                    <input type="submit" class="input-submit-entrar" value="Entrar">
+                    
+                   <!--  <input type="submit" class="input-submit-senha" value="Esqueci a Senha"> -->
+                   <a href="esqueci.html">
+                    Esqueci a senha <span class="material-icons">mail</span>
+                   </a>
+
+
+
+                </form>
+
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>

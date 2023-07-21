@@ -10,22 +10,39 @@
 <body>
 
     
-    <section class="login-celular">
-        <section class="img-background">
+    <main class="main-teste">
+        <section class="login-celular">
+            <section class="img-background">
+            </section>
+            
+            <section class="login-celular-conteudo">
+                <header>
+                    <h1>Login</h1>
+                    <p>Seja bem vindo(a) novamente. Faça seu login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                </header>
+                <main>
+                    <form action="login.php" method="post">
+
+                        <div>
+                            
+                            <input type="email" name="email" id="iemail" class="input-dados" required placeholder="Seu Email">
+                            <label for="iemail">Email</label>
+                        </div>
+
+                        <div>
+                            <input type="password" name="senhaa" id="isenha" class="input-dados" required placeholder="Sua Senha">
+                            <label for="isenha"> Senha</label>
+                        </div>
+
+                        <input type="submit" class="input-submit-entrar" value="Entrar">
+                        
+                        <input type="submit" class="input-submit-senha" value="Esqueci a Senha">
+
+                    </form>
+                </main>
+            </section>
         </section>
-        <section class="login-celular-conteudo">
-            <header>
-                <h1>Login</h1>
-                <p>Seja bem vindo(a) novamente. Faça seu login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-            </header>
-            <main>
-                <label for="iemail" ><input type="email" name="email" id="iemail" class="input-dados" required placeholder="Seu Email"></label>
-                <label for="isenha" ><input type="password" name="senhaa" id="isenha" class="input-dados" required placeholder="Sua Senha"></label>
-                <input type="submit" class="input-submit-entrar" value="Entrar">
-                <input type="submit" class="input-submit-senha" value="Esqueci a Senha">
-            </main>
-        </section>
-    </section>
+    </main>
 
     
 </body>
